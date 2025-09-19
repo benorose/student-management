@@ -69,7 +69,7 @@ int main()
             case 4:
             {
                 int searchNumber;
-                cout << "请输入要搜索的学生学号: ";
+                cout << "请输入要查询的学生学号: ";
                 cin >> searchNumber;
                 student* result = sm.searchStudent(searchNumber);
                 if(result == nullptr) {
