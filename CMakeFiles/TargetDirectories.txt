@@ -1,0 +1,3 @@
+/home/guoanyi/newprogramme/student_management/CMakeFiles/rebuild_cache.dir
+/home/guoanyi/newprogramme/student_management/CMakeFiles/edit_cache.dir
+/home/guoanyi/newprogramme/student_management/CMakeFiles/Management.dir

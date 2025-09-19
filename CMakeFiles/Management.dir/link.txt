@@ -1,0 +1,1 @@
+/usr/bin/c++ -rdynamic CMakeFiles/Management.dir/src/main.cpp.o CMakeFiles/Management.dir/src/student.cpp.o CMakeFiles/Management.dir/src/student_management.cpp.o -o Management 
