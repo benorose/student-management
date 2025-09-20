@@ -56,7 +56,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /home/guoanyi/newprogramme/student_management
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/guoanyi/newprogramme/student_management
+CMAKE_BINARY_DIR = /home/guoanyi/newprogramme/student_management/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Management.dir/depend.make
@@ -70,9 +70,9 @@ include CMakeFiles/Management.dir/progress.make
 include CMakeFiles/Management.dir/flags.make
 
 CMakeFiles/Management.dir/src/main.cpp.o: CMakeFiles/Management.dir/flags.make
-CMakeFiles/Management.dir/src/main.cpp.o: src/main.cpp
+CMakeFiles/Management.dir/src/main.cpp.o: ../src/main.cpp
 CMakeFiles/Management.dir/src/main.cpp.o: CMakeFiles/Management.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/guoanyi/newprogramme/student_management/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Management.dir/src/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/guoanyi/newprogramme/student_management/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Management.dir/src/main.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Management.dir/src/main.cpp.o -MF CMakeFiles/Management.dir/src/main.cpp.o.d -o CMakeFiles/Management.dir/src/main.cpp.o -c /home/guoanyi/newprogramme/student_management/src/main.cpp
 
 CMakeFiles/Management.dir/src/main.cpp.i: cmake_force
@@ -84,9 +84,9 @@ CMakeFiles/Management.dir/src/main.cpp.s: cmake_force
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/guoanyi/newprogramme/student_management/src/main.cpp -o CMakeFiles/Management.dir/src/main.cpp.s
 
 CMakeFiles/Management.dir/src/student.cpp.o: CMakeFiles/Management.dir/flags.make
-CMakeFiles/Management.dir/src/student.cpp.o: src/student.cpp
+CMakeFiles/Management.dir/src/student.cpp.o: ../src/student.cpp
 CMakeFiles/Management.dir/src/student.cpp.o: CMakeFiles/Management.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/guoanyi/newprogramme/student_management/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Management.dir/src/student.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/guoanyi/newprogramme/student_management/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Management.dir/src/student.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Management.dir/src/student.cpp.o -MF CMakeFiles/Management.dir/src/student.cpp.o.d -o CMakeFiles/Management.dir/src/student.cpp.o -c /home/guoanyi/newprogramme/student_management/src/student.cpp
 
 CMakeFiles/Management.dir/src/student.cpp.i: cmake_force
@@ -98,9 +98,9 @@ CMakeFiles/Management.dir/src/student.cpp.s: cmake_force
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/guoanyi/newprogramme/student_management/src/student.cpp -o CMakeFiles/Management.dir/src/student.cpp.s
 
 CMakeFiles/Management.dir/src/student_management.cpp.o: CMakeFiles/Management.dir/flags.make
-CMakeFiles/Management.dir/src/student_management.cpp.o: src/student_management.cpp
+CMakeFiles/Management.dir/src/student_management.cpp.o: ../src/student_management.cpp
 CMakeFiles/Management.dir/src/student_management.cpp.o: CMakeFiles/Management.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/guoanyi/newprogramme/student_management/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Management.dir/src/student_management.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/guoanyi/newprogramme/student_management/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Management.dir/src/student_management.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Management.dir/src/student_management.cpp.o -MF CMakeFiles/Management.dir/src/student_management.cpp.o.d -o CMakeFiles/Management.dir/src/student_management.cpp.o -c /home/guoanyi/newprogramme/student_management/src/student_management.cpp
 
 CMakeFiles/Management.dir/src/student_management.cpp.i: cmake_force
@@ -125,7 +125,7 @@ Management: CMakeFiles/Management.dir/src/student.cpp.o
 Management: CMakeFiles/Management.dir/src/student_management.cpp.o
 Management: CMakeFiles/Management.dir/build.make
 Management: CMakeFiles/Management.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/guoanyi/newprogramme/student_management/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable Management"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/guoanyi/newprogramme/student_management/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable Management"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Management.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -137,6 +137,6 @@ CMakeFiles/Management.dir/clean:
 .PHONY : CMakeFiles/Management.dir/clean
 
 CMakeFiles/Management.dir/depend:
-	cd /home/guoanyi/newprogramme/student_management && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/guoanyi/newprogramme/student_management /home/guoanyi/newprogramme/student_management /home/guoanyi/newprogramme/student_management /home/guoanyi/newprogramme/student_management /home/guoanyi/newprogramme/student_management/CMakeFiles/Management.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/guoanyi/newprogramme/student_management/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/guoanyi/newprogramme/student_management /home/guoanyi/newprogramme/student_management /home/guoanyi/newprogramme/student_management/build /home/guoanyi/newprogramme/student_management/build /home/guoanyi/newprogramme/student_management/build/CMakeFiles/Management.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Management.dir/depend
 

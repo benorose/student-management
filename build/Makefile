@@ -60,7 +60,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /home/guoanyi/newprogramme/student_management
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/guoanyi/newprogramme/student_management
+CMAKE_BINARY_DIR = /home/guoanyi/newprogramme/student_management/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/guoanyi/newprogramme/student_management/CMakeFiles /home/guoanyi/newprogramme/student_management//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/guoanyi/newprogramme/student_management/build/CMakeFiles /home/guoanyi/newprogramme/student_management/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/guoanyi/newprogramme/student_management/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/guoanyi/newprogramme/student_management/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
