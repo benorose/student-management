@@ -1,3 +1,20 @@
-# Student Management System
-
-This is a student management system project.
+# 学生管理系统
+## 项目功能
+该系统用于管理学生信息，支持以下操作：
+- 添加学生
+- 学号查找学生
+- 显示系统中所有的学生信息
+- 通过学号查询学生的平均成绩
+---
+## 编译方法
+1. 进入项目目录
+2. 终端输入`cd build/`进入编译目录
+3. 执行以下指令
+```bash
+cmake ../ # 生成makefile文件
+make # 编译项目
+```
+## 运行方法
+```bash
+./Manegement # 运行程序
+```
